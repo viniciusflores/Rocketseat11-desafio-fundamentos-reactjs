@@ -1,4 +1,4 @@
-const jestConfig = require('./jest.config');
+const jestConfig = require('./jest.config')
 
 module.exports = {
   jest(config) {
@@ -6,4 +6,4 @@ module.exports = {
     config.reporters = jestConfig.reporters;
     return config;
   },
-};
+}
